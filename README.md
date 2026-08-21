@@ -4,28 +4,42 @@
 
 This project demonstrates how to build a Retrieval-Augmented Generation (RAG) Agent using **Microsoft Foundry**, **Foundry IQ**, **Azure AI Search**, and **Azure OpenAI Embeddings**.
 
-The agent is designed to inspire users and answer questions using content from two public-domain books:
+### Use Case
 
-- *The Story of My Life* by Helen Keller
-- *A Little Princess* by Frances Hodgson Burnett
+Developed a "Dream Inspire Coach" agent that answers motivational and goal-oriented questions using content from:
 
-The solution uses semantic search and vector embeddings to retrieve relevant content from the books and generate grounded responses with citations.
+- The Story of My Life by Helen Keller
+- A Little Princess by Frances Hodgson Burnett
 
----
+### Key Features
 
-## Business Scenario
+- Agent creation using Microsoft Foundry
+- Knowledge grounding using Foundry IQ
+- Azure Blob Storage for document storage
+- Azure AI Search for indexing and retrieval
+- Vector embeddings using text-embedding-3-small
+- Grounded responses with source citations
+- Trace-based validation of retrieval workflow
 
-Users often seek motivation, guidance, and inspiration when facing challenges.
+  ### Outcomes
 
-This agent acts as a **Dream Inspire Coach**, leveraging inspirational stories and life lessons from classic literature to provide:
+- Successfully indexed and vectorized source documents
+- Connected Azure AI Search with Foundry IQ
+- Enabled semantic retrieval for agent responses
+- Verified knowledge retrieval through traces
+- Generated responses with citations from source documents
 
-- Goal-setting guidance
-- Motivation and encouragement
-- Lessons on perseverance
-- Strategies for overcoming obstacles
-- Inspirational examples from real-world and fictional characters
+### Skills Demonstrated
 
----
+- Generative AI
+- Retrieval-Augmented Generation (RAG)
+- Microsoft Foundry
+- Foundry IQ
+- Azure AI Search
+- Azure OpenAI Embeddings
+- Vector Search
+- Prompt Engineering
+- Knowledge Grounding
 
 ## Solution Architecture
 
@@ -53,3 +67,7 @@ GPT-5-mini
         │
         ▼
 Grounded Responses with Citations
+
+
+
+
